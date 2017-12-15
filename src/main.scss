@@ -1,0 +1,122 @@
+html {
+    
+    background-color: #eab029
+}
+
+body {
+  height: 100%;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+
+
+ul {
+    list-style: none;
+	font-size: 20px;
+	width: 500px;
+	margin: auto;
+	padding: 0;
+    margin-bottom: 4%
+}
+
+@keyframes example {
+    from {background-color: #7B2727;}
+    to {background-color: #1b7b34;}
+    
+}
+
+li {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  height: 60px;
+  border-radius: 10px;
+    
+    .text {
+   float: right; 
+   margin-right: 5% ;
+    }    
+     
+  &.done {
+
+    color: #0E3E1B;
+    background-color: #1b7b34;
+    animation-name: example;
+    animation-duration: 2s;
+      
+    
+  }
+
+  &.open {
+    color: #7B2727;
+    background-color: #f14c4c;
+
+  }
+
+  button.todo {
+    display: inline-block;  
+    margin: 0 auto;
+    margin-right: 10%;
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 100%;
+    font-size: 0.8em;
+    
+  }
+}
+
+.done {
+   text-decoration: none; 
+    
+}
+
+button:focus {outline:0;}
+
+input {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  border: solid 1px lightgrey;
+  margin: 0 auto 0px;
+    
+}
+
+button.add {
+  border: solid 1px lightgrey;
+  background-color: white;
+  border-radius: 0px;
+  height: 26px;
+  margin-left: 15px;
+  margin-right: 5px; 
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+ 
+}
+
+
+.todo-input {
+   width: 270px;
+   margin: auto;
+   padding: 0;
+
+   
+    
+}
+
+.footer {
+	position: fixed;
+	z-index: 300;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	margin-top: 100px;
+	background-color: #CCF2FF;
+	text-align: center;
+}
